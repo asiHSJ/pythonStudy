@@ -20,7 +20,7 @@ def main():
     
 # if문 
 
-age = int(input('나이: '))
+age = int(input('나이: ')) 
 
 if age < 13 : 
     print('초등학생입니다.')
