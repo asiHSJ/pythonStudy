@@ -19,8 +19,9 @@ def main():
     print('빗변의 길이 = ' , hyp)
     
 # if문 
+# 이것도 추가함
 
-age = int(input('나이: ')) 
+age = int(input('나이: '))
 
 if age < 13 : 
     print('초등학생입니다.')
@@ -62,7 +63,17 @@ while True:
     else :
         print('정답입니다!')
         break
-    
-    
-        
-        
+            
+# 리스트의 append & sort 
+
+def lis() : 
+    a_list = []
+
+    while True : 
+        s = input('이름을 입력하시오 : ')
+        if not s:
+            break
+        a_list.append(s)
+
+    a_list.sort()
+    print(a_list)
